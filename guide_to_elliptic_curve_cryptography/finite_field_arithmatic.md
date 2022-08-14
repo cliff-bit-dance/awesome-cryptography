@@ -5,5 +5,9 @@ The order of a finite field is the number of elements in the field. There exists
 ...
 
 ## binary field
-Finite fields of order 2^{m} are called binary fields or characteristic-two finite fields. One way to construct F_{2^m} is to use a polynomial basis representation. Here, the elements of F_{2^m} are the binary polynomials (polynomials whose coefficients are in the field F_{2} ={0,1})ofdegree at most m−1
+Finite fields of order 2^{m} are called binary fields or characteristic-two finite fields. One way to construct F_{2^m} is to use a polynomial basis representation. Here, the elements of F_{2^m} are the binary polynomials (polynomials whose coefficients are in the field F_{2} ={0,1})of degree at most m−1
 F_{2^m}= {a_{m-1}z^{m-1} + a_{m-2}z^{m-2} + ... + a_{1}z + a_{0} : a_{i} \in {0,1}} 
+An irreducible binary polynomial f(z) of degree m is chosen. Multiplication of field elements is performed modulo the reduction polynomial f(z)
+
+## extension field
+F_{p^m}= {a_{m-1}z^{m-1} + a_{m-2}z^{m-2} + ... + a_{1}z + a_{0} : a_{i} \in F_{p}} 
